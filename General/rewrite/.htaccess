@@ -1,0 +1,3 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^([^/]+)/detalles.html productos.php?id=$1 [NC]
